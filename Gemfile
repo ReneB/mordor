@@ -6,10 +6,10 @@ source "http://rubygems.org"
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 gem "rake"
-gem "extlib"
 gem "mongo"
 gem "bson"
 gem "json"
+gem "activesupport"
 
 group :test do
   gem "rspec", "~> 2.0"

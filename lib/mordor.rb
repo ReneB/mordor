@@ -1,15 +1,12 @@
 require 'rubygems'
 require 'mongo'
-require 'extlib'
 require 'json'
+require 'date'
+require 'bigdecimal'
 require 'mordor/version'
 require 'mordor/config'
 require 'mordor/collection'
 require 'mordor/resource'
-
-unless Object.const_defined?('BigDecimal')
-  BigDecimal = Float
-end
 
 class Date
   def to_time(form = :utc)

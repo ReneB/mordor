@@ -14,10 +14,9 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rspec', '~> 2.0')
   s.add_development_dependency('json')
 
-  s.add_development_dependency('extlib')
   s.add_development_dependency('mongo')
 
-  s.add_runtime_dependency('extlib')
+  s.add_runtime_dependency('activesupport')
   s.add_runtime_dependency('mongo')
   s.add_runtime_dependency('json')
 
